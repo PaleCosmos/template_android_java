@@ -1,7 +1,10 @@
-package io.wiffy.template_java;
+package io.wiffy.template_java.ui.main;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
+
+import io.wiffy.template_java.R;
 
 public class MainActivity extends AppCompatActivity {
 
