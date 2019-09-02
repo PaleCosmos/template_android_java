@@ -27,7 +27,6 @@ public class SplashActivity extends SplashContract.View {
     @Override
     void initView() {
         // View Init
-
         mPresenter.check();
     }
 
@@ -41,15 +40,5 @@ public class SplashActivity extends SplashContract.View {
                 finish();
             }
         }, Component.delay);
-    }
-
-    @Override
-    public int console(String str) {
-        return super.console(str);
-    }
-
-    @Override
-    public int console(String tag, String str) {
-        return super.console(tag, str);
     }
 }

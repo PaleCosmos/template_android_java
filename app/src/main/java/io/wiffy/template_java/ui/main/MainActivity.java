@@ -21,14 +21,4 @@ public class MainActivity extends MainContract.View {
     void initView() {
         //init view
     }
-
-    @Override
-    public int console(String str) {
-        return super.console(str);
-    }
-
-    @Override
-    public int console(String tag, String str) {
-        return super.console(tag, str);
-    }
 }
