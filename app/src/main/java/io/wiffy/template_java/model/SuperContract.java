@@ -5,10 +5,11 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-interface SuperContract {
+public interface SuperContract {
 
-    interface WiffyObject{
+    interface WiffyObject {
         int console(String str);
+
         int console(String tag, String str);
     }
 
@@ -38,5 +39,9 @@ interface SuperContract {
         public int console(String tag, String str) {
             return Log.d(tag, str);
         }
+    }
+
+    interface SuperPresenter extends WiffyObject {
+        void initPresent();
     }
 }

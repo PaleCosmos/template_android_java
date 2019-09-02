@@ -1,16 +1,11 @@
-package io.wiffy.template_java.ui.splash;
+package io.wiffy.template_java.ui.main;
 
-class SplashPresenter implements SplashContract.Presenter {
+class MainPresenter implements MainContract.Presenter {
 
-    SplashContract.View mView;
+    private MainContract.View mView;
 
-    SplashPresenter(SplashContract.View mView) {
+    MainPresenter(MainContract.View mView) {
         this.mView = mView;
-    }
-
-    @Override
-    public void check() {
-
     }
 
     @Override
@@ -25,6 +20,6 @@ class SplashPresenter implements SplashContract.Presenter {
 
     @Override
     public void initPresent() {
-
+        mView.initView();
     }
 }

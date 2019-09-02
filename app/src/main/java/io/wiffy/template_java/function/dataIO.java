@@ -1,6 +1,7 @@
 package io.wiffy.template_java.function;
 
-class dataIO
+public class dataIO
 {
-    static final String appConstantPreferences = "whatyouwant";
+    private dataIO(){}
+   public static final String appConstantPreferences = "whatyouwant";
 }
