@@ -1,2 +1,2 @@
 # template_android_java
-Wiffy Android Template(java)
+Android Template(java MVP pattern)
