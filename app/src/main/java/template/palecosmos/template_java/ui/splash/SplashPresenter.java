@@ -1,4 +1,4 @@
-package io.wiffy.template_java.ui.splash;
+package template.palecosmos.template_java.ui.splash;
 
 class SplashPresenter implements SplashContract.Presenter {
 

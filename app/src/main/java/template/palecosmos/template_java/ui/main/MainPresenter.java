@@ -1,4 +1,4 @@
-package io.wiffy.template_java.ui.main;
+package template.palecosmos.template_java.ui.main;
 
 class MainPresenter implements MainContract.Presenter {
 

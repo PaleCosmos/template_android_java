@@ -1,8 +1,8 @@
-package io.wiffy.template_java.ui.main;
+package template.palecosmos.template_java.ui.main;
 
 import android.os.Bundle;
 
-import io.wiffy.template_java.R;
+import template.palecosmos.template_java.R;
 
 public class MainActivity extends MainContract.View {
 

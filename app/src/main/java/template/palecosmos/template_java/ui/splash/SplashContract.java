@@ -1,6 +1,6 @@
-package io.wiffy.template_java.ui.splash;
+package template.palecosmos.template_java.ui.splash;
 
-import io.wiffy.template_java.model.SuperContract;
+import template.palecosmos.template_java.model.SuperContract;
 
 interface SplashContract {
     abstract class View extends SuperContract.SuperActivity{

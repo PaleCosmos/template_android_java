@@ -1,6 +1,6 @@
-package io.wiffy.template_java.ui.main;
+package template.palecosmos.template_java.ui.main;
 
-import io.wiffy.template_java.model.SuperContract;
+import template.palecosmos.template_java.model.SuperContract;
 
 interface MainContract {
     abstract class View extends SuperContract.SuperActivity {

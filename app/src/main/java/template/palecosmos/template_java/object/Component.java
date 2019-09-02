@@ -1,4 +1,4 @@
-package io.wiffy.template_java.object;
+package template.palecosmos.template_java.object;
 
 import android.content.SharedPreferences;
 

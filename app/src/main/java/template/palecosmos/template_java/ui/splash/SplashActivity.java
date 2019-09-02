@@ -1,4 +1,4 @@
-package io.wiffy.template_java.ui.splash;
+package template.palecosmos.template_java.ui.splash;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,9 +7,9 @@ import android.os.Looper;
 
 import androidx.annotation.Nullable;
 
-import io.wiffy.template_java.R;
-import io.wiffy.template_java.object.Component;
-import io.wiffy.template_java.ui.main.MainActivity;
+import template.palecosmos.template_java.R;
+import template.palecosmos.template_java.object.Component;
+import template.palecosmos.template_java.ui.main.MainActivity;
 
 public class SplashActivity extends SplashContract.View {
 

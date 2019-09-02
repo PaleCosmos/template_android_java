@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="io.wiffy.template_java">
+    package="template.palecosmos.template_java">
 
     <application
-        android:name=".model.MyApplication"
+        android:name="template.palecosmos.template_java.model.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,10 +13,10 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name="template.palecosmos.template_java.ui.main.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.splash.SplashActivity"
+            android:name="template.palecosmos.template_java.ui.splash.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

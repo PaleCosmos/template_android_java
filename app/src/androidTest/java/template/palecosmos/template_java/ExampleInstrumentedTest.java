@@ -1,4 +1,4 @@
-package io.wiffy.template_java;
+package template.palecosmos.template_java;
 
 import android.content.Context;
 

@@ -1,14 +1,14 @@
-package io.wiffy.template_java.model;
+package template.palecosmos.template_java.model;
 
 import android.app.Application;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.util.Log;
 
-import io.wiffy.template_java.function.dataIO;
-import io.wiffy.template_java.object.Component;
+import template.palecosmos.template_java.function.dataIO;
+import template.palecosmos.template_java.object.Component;
 
-public class MyApplication extends Application implements SuperContract.WiffyObject {
+public class MyApplication extends Application implements SuperContract.AndroidInterface {
     @Override
     public void onCreate() {
         super.onCreate();

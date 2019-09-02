@@ -1,4 +1,4 @@
-package io.wiffy.template_java.model;
+package template.palecosmos.template_java.model;
 
 import android.util.Log;
 import android.widget.Toast;
@@ -7,13 +7,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public interface SuperContract {
 
-    interface WiffyObject {
+    interface AndroidInterface {
         int console(String str);
-
         int console(String tag, String str);
     }
 
-    abstract class SuperActivity extends AppCompatActivity implements WiffyObject {
+    abstract class SuperActivity extends AppCompatActivity implements AndroidInterface {
         void toast(String str) {
             Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
         }
@@ -41,7 +40,7 @@ public interface SuperContract {
         }
     }
 
-    interface SuperPresenter extends WiffyObject {
+    interface SuperPresenter extends AndroidInterface {
         void initPresent();
     }
 }

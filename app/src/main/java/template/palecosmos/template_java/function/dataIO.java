@@ -1,4 +1,4 @@
-package io.wiffy.template_java.function;
+package template.palecosmos.template_java.function;
 
 public class dataIO
 {
